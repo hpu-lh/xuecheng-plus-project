@@ -35,8 +35,9 @@ Content-Type: application/json
   "description": ""
 }
 ###
-GET {{content_host}}/content/course/40
-Content-Type: application/json
+GET {{gateway_host}}/content/course/40
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ7XCJjb21wYW55SWRcIjpcIjEyMzIxNDE0MjVcIixcImNyZWF0ZVRpbWVcIjpcIjIwMjItMDktMjhUMDg6MzI6MDNcIixcImlkXCI6XCI1MlwiLFwibmFtZVwiOlwiTeiAgeW4iFwiLFwic2V4XCI6XCIxXCIsXCJzdGF0dXNcIjpcIlwiLFwidXNlcm5hbWVcIjpcInQxXCIsXCJ1dHlwZVwiOlwiMTAxMDAyXCJ9Iiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTcxMzA5MzYyOCwiYXV0aG9yaXRpZXMiOlsidGVzdCJdLCJqdGkiOiJiZjUwZjZkNC1iOTg2LTQ2YjAtODczOS04OTU5MzBlZjk4OWYiLCJjbGllbnRfaWQiOiJYY1dlYkFwcCJ9.AACr8n2eqFScXnFLurkP-mpcKruen8_6X05WZ-YLMjc
+#Content-Type: application/json
 ###
 PUT {{content_host}}/content/course
 Content-Type: application/json

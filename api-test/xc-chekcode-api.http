@@ -1,0 +1,8 @@
+
+### 申请验证码
+POST {{checkcode_host}}/checkcode/pic
+
+
+### 校验验证码
+POST {{checkcode_host}}/checkcode/verify?key=checkcode:b74e6dac1bdc42798ac15946301b2670&code=JZF4
+
